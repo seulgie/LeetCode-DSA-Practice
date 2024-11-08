@@ -7,16 +7,12 @@ Welcome to my Data Structures and Algorithms (DSA) study archive! This repositor
 - [Course Overview](#course-overview)
 - [Progress](#progress)
 - [Directory Structure](#directory-structure)
-- [How to Use This Repo](#how-to-use-this-repo)
-- [Topics Covered](#topics-covered)
-- [Resources](#resources)
-- [License](#license)
 
 ---
 
 ## 📑 Course Overview
 
-This repository primarily follows the [LeetCode Data Structures and Algorithms Course]([https://leetcode.com/study-plan/data-structure/](https://leetcode.com/explore/interview/card/leetcodes-interview-crash-course-data-structures-and-algorithms/)), covering essential concepts in DSA, such as arrays, linked lists, trees, graphs, dynamic programming, and more. Each section includes multiple problems, practice sets, and notes.
+This repository primarily follows the [LeetCode Data Structures and Algorithms Course](https://leetcode.com/study-plan/data-structure/](https://leetcode.com/explore/interview/card/leetcodes-interview-crash-course-data-structures-and-algorithms/), covering essential concepts in DSA, such as arrays, linked lists, trees, graphs, dynamic programming, and more. Each section includes multiple problems, practice sets, and notes.
 
 ---
 
