@@ -20,8 +20,8 @@ This repository primarily follows the [LeetCode Data Structures and Algorithms C
 
 | Topic                      | Status        | 
 | -------------------------- | ------------- | 
-| Arrays & Strings           | To Do         |
-| Hashing                    | To Do         | 
+| Arrays & Strings           | In progress   |
+| Hashing                    | In progress   | 
 | Linked Lists               | To Do         |
 | Stacks and queues          | To Do         |
 | Trees and graphs           | To Do         | 
@@ -38,7 +38,7 @@ This repository primarily follows the [LeetCode Data Structures and Algorithms C
 
 ```plaintext
 .
-├── Arrays/
+├── Arrays and strings/
 │   ├── Arrays.md  # Explanation of Arrays
 │   └── solution.py      # Solution code
 ├── LinkedLists/
