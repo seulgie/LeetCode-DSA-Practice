@@ -1,8 +1,14 @@
-class Solution:
-    def twoSum(self, nums: List[int], target: int) -> List[int]:
-        left, right = 0, len(nums) - 1
-
-        while left < right:
-            curr = nums[left] + num[right]
-            if curr = target:
-                return
+def has_pair_with_sum(nums, target):
+    left, right = 0, len(nums) - 1  # Initialize pointers
+    
+    while left < right:
+        current_sum = nums[left] + nums[right]
+        
+        if current_sum == target:  # Found the pair
+            return True
+        elif current_sum < target:  # Increase the sum
+            left += 1
+        else:  # Decrease the sum
+            right -= 1
+    
+    return False  # No pair found
