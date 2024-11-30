@@ -25,6 +25,22 @@ Click the back arrow:
 - **Pop**: Remove the top element from the stack.
 - **Peek**: View the top element without removing it.
 
+# Complexity Analysis
+
+This document provides the complexity analysis of various stack operations and common algorithms implemented using stacks.
+
+---
+
+## Complexity of Basic Stack Operations
+
+| Operation | Time Complexity | Explanation |
+|-----------|------------------|-------------|
+| Push      | O(1)             | Adding an element to the top is a constant-time operation. |
+| Pop       | O(1)             | Removing the top element is a constant-time operation. |
+| Peek      | O(1)             | Viewing the top element does not require iteration. |
+
+---
+
 In Python, stacks can be implemented using a list:
 ```python
 stack = []
