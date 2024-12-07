@@ -24,7 +24,7 @@ This repository primarily follows the [LeetCode Data Structures and Algorithms C
 | Hashing                    | In progress   | 
 | Linked Lists               | In progress   |
 | Stacks and queues          | In progress   |
-| Trees and graphs           | To Do         | 
+| Trees and graphs           | In progress   | 
 | Heaps                      | In progress   |
 | Greedy                     | To Do         | 
 | Binary search              | To Do         |
