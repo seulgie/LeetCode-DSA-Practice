@@ -31,10 +31,10 @@ class Solution:
         # Start the recursion with the root's value as both the initial min and max.
         return helper(root, root.val, root.val)
         
-    # Complexity Analysis
-    # Time Complexity: O(N) 
-    #   - Each node in the tree is visited exactly once.
-    # Space Complexity: O(H)
-    #   - H is the height of the tree. In the worst case (skewed tree), H = N.
-    #   - In the best case (balanced tree), H = Log(N).
+# Complexity Analysis
+# Time Complexity: O(N) 
+#   - Each node in the tree is visited exactly once.
+# Space Complexity: O(H)
+#   - H is the height of the tree. In the worst case (skewed tree), H = N.
+#   - In the best case (balanced tree), H = Log(N).
         
