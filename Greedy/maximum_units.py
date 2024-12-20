@@ -19,4 +19,11 @@ class Solution:
                 break
                 
         return total_units
-  
+
+# Time Complexity: 
+#    - Sorting the boxTypes array takes O(n log n), where n is the number of box types.
+#    - After sorting, we iterate through the list once, which takes O(n).
+#    - Thus, the total time complexity is O(n log n).
+# Space Complexity:
+#    - O(1) if we consider the input array as constant space (since the sorting operation modifies the array in-place).
+ 
