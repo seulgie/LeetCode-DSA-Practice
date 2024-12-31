@@ -26,7 +26,7 @@ This repository primarily follows the [LeetCode Data Structures and Algorithms C
 | Stacks and queues          | In progress   |
 | Trees and graphs           | In progress   | 
 | Heaps                      | In progress   |
-| Greedy                     | To Do         | 
+| Greedy                     | In progress   | 
 | Binary search              | To Do         |
 | Backtracking               | To Do         |
 | Dynamic programming        | To Do         |
