@@ -20,10 +20,10 @@ This repository primarily follows the [LeetCode Data Structures and Algorithms C
 
 | Topic                      | Status        | 
 | -------------------------- | ------------- | 
-| Arrays & Strings           | In progress   |
-| Hashing                    | In progress   | 
-| Linked Lists               | In progress   |
-| Stacks and queues          | In progress   |
+| Arrays & Strings           | Done          |
+| Hashing                    | Done          | 
+| Linked Lists               | Done          |
+| Stacks and queues          | Done          |
 | Trees and graphs           | In progress   | 
 | Heaps                      | In progress   |
 | Greedy                     | In progress   | 
