@@ -13,26 +13,35 @@ def updateMatrix(mat):
     - **Space Complexity:** O(m * n), due to the queue storing matrix elements.
     """
     
-    rows, cols = len(mat), len(mat[0])
-    queue = deque()
-    
-    # Step 1: Initialize distances and add all `0`s to queue
-    for r in range(rows):
-        for c in range(cols):
-            if mat[r][c] == 0:
-                queue.append((r, c))  # Start BFS from '0' cells
-            else:
-                mat[r][c] = float('inf')  # Mark '1's as unprocessed
-    
-    directions = [(0,1), (0,-1), (1,0), (-1,0)]  # Right, Left, Down, Up
-    
-    # Step 2: Perform BFS
-    while queue:
-        r, c = queue.popleft()  # Process current cell
-        for dr, dc in directions:
-            nr, nc = r + dr, c + dc
-            if 0 <= nr < rows and 0 <= nc < cols and mat[nr][nc] > mat[r][c] + 1:
-                mat[nr][nc] = mat[r][c] + 1  # Update shortest distance
-                queue.append((nr, nc))  # Add updated cell to queue
-    
-    return mat
+from collections import deque
+
+class Solution:
+    def updateMatrix(self, mat: List[List[int]]) -> List[List[int]]:
+        def valid(row, col):
+            return 0 <= row < m and 0 <= col < n and mat[row][col] == 1
+        
+        # if you don't want to modify the input, you can create a copy at the start
+        m = len(mat)
+        n = len(mat[0])
+        queue = deque()
+        seen = set()
+        
+        for row in range(m):
+            for col in range(n):
+                if mat[row][col] == 0:
+                    queue.append((row, col, 1))
+                    seen.add((row, col))
+        
+        directions = [(0, 1), (1, 0), (0, -1), (-1, 0)]
+
+        while queue:
+            row, col, steps = queue.popleft()
+            
+            for dx, dy in directions:
+                next_row, next_col = row + dy, col + dx
+                if (next_row, next_col) not in seen and valid(next_row, next_col):
+                    seen.add((next_row, next_col))
+                    queue.append((next_row, next_col, steps + 1))
+                    mat[next_row][next_col] = steps
+        
+        return mat
